@@ -88,7 +88,8 @@ Redux 的 React 绑定库包含了 [容器组件和展示组件相分离](https:
 #### `components/AddTodo.js`
 
 ```js
-import React, { findDOMNode, Component, PropTypes } from 'react';
+import React, { Component, PropTypes } from 'react';
+import { findDOMNode } from 'react-dom';
 
 export default class AddTodo extends Component {
   render() {
